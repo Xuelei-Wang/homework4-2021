@@ -77,7 +77,8 @@ td{
   width: auto;
   padding: 10px;
   color: #ffffff;
-  margin: auto auto;
+  text-align: center;
+  vertical-align:baseline;
   background-color: #7e0820;
   text-transform: uppercase;
 
@@ -107,10 +108,9 @@ tr:hover{
 
 /*Req 7*/
 table{
-    border: 2px solid #000000;
-    margin: 0 auto;
-    border-radius: 10px;
-    border-collapse: collapse;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin: auto;
 }
 
 thead tr:first-child th:first-child{
@@ -121,7 +121,7 @@ thead tr:last-child th:last-child{
   border-radius: 0 10px 0 0;
 }
 
-tbody tr:last-child th{
+tbody tr:last-child th:first-child{
   border-radius: 0 0 0 10px;
 }
 
@@ -133,7 +133,7 @@ tbody tr:last-child td:last-child{
 
 /*Req 8*/
 footer{
-  position: absolute;
+  position: fixed;
   left:0;
   bottom: 0;
   width:100%;
