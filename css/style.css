@@ -133,7 +133,7 @@ tbody tr:last-child td:last-child{
 
 /*Req 8*/
 footer{
-  position:absolute;
+  position: absolute;
   bottom: 0;
   width:100%;
   min-height: 75px;
