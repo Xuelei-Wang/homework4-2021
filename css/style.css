@@ -28,7 +28,7 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-image: url("/Users/apple/Desktop/SI539/hw4-2021-main/images/pigeon-background.JPEG");
+  background-image: url("images/pigeon-background.JPEG");
   background-color: #DDDDDD;
   background-size: cover;
   background-repeat: no-repeat;
