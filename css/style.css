@@ -52,7 +52,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #B21F50;
+  color: #B92751;
   text-decoration-style: wavy;
   /*Req 4*/
 }
@@ -110,6 +110,7 @@ table{
     border: 2px solid #000000;
     margin: 0 auto;
     border-radius: 10px;
+    border-collapse: collapse;
 }
 
 thead tr:first-child th:first-child{
